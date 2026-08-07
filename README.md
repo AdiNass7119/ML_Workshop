@@ -1,171 +1,103 @@
-# Titanic Dataset Exploratory Data Analysis
+# Machine Learning Workshop
+
+> A structured collection of hands-on machine learning exercises, data preprocessing techniques, and feature engineering practices completed during an intensive ML workshop.
 
 ## Overview
 
-This repository contains an in-depth **Exploratory Data Analysis (EDA)** of the Titanic dataset using Python. The project demonstrates the complete workflow of inspecting, cleaning, analyzing, and visualizing data to extract meaningful insights about passenger demographics and survival patterns.
+This repository documents my practical learning journey through a Machine Learning Workshop. It contains the notebooks, datasets, and implementations developed while exploring the complete data preprocessing pipeline used in real-world machine learning projects.
 
-The primary objective is to understand the dataset through statistical analysis and visualization while applying fundamental data science techniques.
+The focus of this workshop was not simply building models, but understanding the quality of data that drives them. Every notebook reflects concepts learned through experimentation, analysis, and implementation using Python's machine learning ecosystem.
+
+---
+
+## What You'll Find
+
+- Data preprocessing techniques
+- Feature engineering workflows
+- Data normalization and standardization
+- Handling missing values
+- Categorical variable encoding
+- Exploratory Data Analysis (EDA)
+- Statistical analysis of datasets
+- Titanic dataset case study
+- Practical implementation using Scikit-learn
+
+---
+
+## Technology Stack
+
+- Python
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- SciPy
+- Plotly
+- OpenPyXL
+- XGBoost
+
+---
+
+## Repository Structure
+
+```
+ML_Workshop/
+│
+├── Features_ML_Workshop.ipynb
+├── day2_ML_Workshop.ipynb
+├── titanic.csv
+└── README.md
+```
+
+---
+
+## Learning Approach
+
+Rather than treating machine learning as a collection of algorithms, this workshop emphasizes the importance of understanding data before model development.
+
+The notebooks demonstrate a step-by-step workflow beginning with dataset exploration, followed by cleaning, preprocessing, feature engineering, scaling, encoding, and preparation for predictive modeling.
 
 ---
 
 ## Objectives
 
-- Perform comprehensive Exploratory Data Analysis (EDA)
-- Understand the structure and quality of the dataset
-- Identify missing values and data distributions
-- Analyze relationships between passenger attributes and survival
-- Generate meaningful visualizations for better interpretation
-- Develop practical experience with Python data science libraries
+- Build a strong foundation in data preprocessing
+- Understand feature engineering techniques
+- Learn industry-standard data preparation workflows
+- Practice implementing concepts using Python libraries
+- Develop reproducible and well-structured notebooks
 
 ---
 
-## Technologies Used
-
-| Technology | Purpose |
-|------------|---------|
-| Python | Programming Language |
-| Pandas | Data Manipulation & Analysis |
-| NumPy | Numerical Computing |
-| Matplotlib | Data Visualization |
-| Seaborn | Statistical Visualization |
-| Plotly | Interactive Visualizations |
-| Jupyter Notebook | Development Environment |
-
----
-
-## Dataset
-
-The project utilizes the **Titanic Passenger Dataset**, which contains demographic and travel information for passengers aboard the RMS Titanic.
-
-### Features Included
-
-- Passenger ID
-- Passenger Class (Pclass)
-- Name
-- Sex
-- Age
-- Number of Siblings/Spouses Aboard
-- Number of Parents/Children Aboard
-- Ticket Number
-- Fare
-- Cabin
-- Port of Embarkation
-- Survival Status
-
----
-
-## Exploratory Data Analysis
-
-The following analyses have been performed:
-
-- Dataset Inspection
-- Data Type Analysis
-- Descriptive Statistics
-- Missing Value Identification
-- Unique Value Analysis
-- Frequency Distribution
-- Passenger Class Analysis
-- Gender Distribution
-- Age Distribution
-- Fare Distribution
-- Survival Analysis
-- Correlation Analysis
-- Feature Relationship Visualization
-
----
-
-## Visualizations
-
-The project includes several visualizations, including:
-
-- Histograms
-- Count Plots
-- Bar Charts
-- Pie Charts
-- Scatter Plots
-- Distribution Plots
-- Interactive Plotly Charts
-
-These visualizations help identify trends, distributions, and relationships among various features.
-
----
-
-## Project Structure
-
-```
-Titanic-EDA/
-│
-├── Titanic_EDA.ipynb
-├── titanic.csv
-├── README.md
-└── images/ (Optional)
-```
-
----
-
-## Installation
+## Getting Started
 
 Clone the repository
 
 ```bash
-git clone https://github.com/your-username/Titanic-EDA.git
+git clone https://github.com/AdiNass7119/ML_Workshop.git
 ```
 
-Navigate to the project directory
+Install the required dependencies
 
 ```bash
-cd Titanic-EDA
+pip install numpy pandas matplotlib seaborn scikit-learn scipy plotly openpyxl xgboost
 ```
 
-Install the required libraries
-
-```bash
-pip install pandas numpy matplotlib seaborn plotly
-```
-
-Launch Jupyter Notebook
-
-```bash
-jupyter notebook
-```
-
-Open the notebook and execute all cells.
+Launch the notebooks using Jupyter Notebook or Google Colab.
 
 ---
 
-## Key Learning Outcomes
+## About
 
-- Data Exploration Techniques
-- Data Cleaning Fundamentals
-- Statistical Analysis
-- Data Visualization
-- Feature Understanding
-- Python for Data Science
-- EDA Workflow Best Practices
+This repository represents my practical work completed during a Machine Learning Workshop and serves as a reference for future projects, revision, and continued learning in Data Science and Machine Learning.
 
 ---
 
-## Future Improvements
-
-- Data Preprocessing Pipeline
-- Feature Engineering
-- Machine Learning Model Development
-- Survival Prediction
-- Model Evaluation and Comparison
-- Deployment using Streamlit or Flask
-
----
-
-## Author
+**Author**
 
 **Aditya Vardhan Gujjarlapudi**
 
-B.Tech – Information Technology
+B.Tech — Information Technology
 
-Passionate about Artificial Intelligence, Machine Learning, Data Science, and Full Stack Development.
-
----
-
-## License
-
-This project is developed for educational and learning purposes.
+GitHub: https://github.com/AdiNass7119
